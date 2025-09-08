@@ -26,6 +26,7 @@ apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
+    // github.com/a-yataka/tflite_flutter_helper.git
     namespace = "com.github.a-yataka.tflite_flutter_helper"
 
     compileSdkVersion 30
